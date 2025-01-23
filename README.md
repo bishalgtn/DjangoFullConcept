@@ -1,0 +1,1 @@
+Django full concept clearing
