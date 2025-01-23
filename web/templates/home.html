@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Django Home</title>
-</head>
-<body>
-    <h1>Wlcome to home page. <a href="/about">About Page link </a></h1>
-</body>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+  </head>
+  <body>
+    <h1>Welcome to home page. <a href="/about">About Page link </a></h1>
+  </body>
 </html>

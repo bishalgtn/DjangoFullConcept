@@ -1,0 +1,20 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: black;
+  height: 100vh;
+  font: bold;
+  font-size: 2rem;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
