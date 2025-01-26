@@ -9,8 +9,14 @@
     <script src="{% static 'js/warn.js' %}" defer></script>
   </head>
   <body>
-    <nav>{% block content %}
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/login">Login</a>
+    </nav>
+    <div>
+        {% block content %}
     
     {% endblock %}
-    </nav>
+    </div>
 </html>
