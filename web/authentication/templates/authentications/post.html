@@ -8,6 +8,7 @@
 {% block content %}
 <section>
   <h1>Welcome to Post page with auth url <a href="/">home</a></h1>
+  <br>
   {% for post in posts %}
     <article class="post">
       <h2>
@@ -20,6 +21,7 @@
         {{ post.body }}
       </p>
     </article>
+    <br>
   {% endfor %}
 </section>
 {% endblock %}
