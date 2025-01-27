@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .models import Post
 
 # Create your views here.
-def login(request):
-    return render(request,'authentications/login.html')
+def post(request):
+    posts = Post.objects.all()
+    return render(request,'authentications/post.html', { 'posts':posts})

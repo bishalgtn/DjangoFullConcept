@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homePage),  
     path('about/', views.aboutPage),
-    path('auth/', include('authentication.urls')), 
+    path('post/', include('authentication.urls')), 
 ]

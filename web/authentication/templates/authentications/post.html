@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+
+{% block title %}
+    Post List
+{% endblock %}
+
+{% block content %}
+<section>
+  <h1>Welcome to Post page with auth url <a href="/">home</a></h1>
+  {% for post in posts %}
+    <article class="post">
+      <h2>
+        {{ post.title }}
+      </h2>
+      <h4>
+        {{ post.date }}
+      </h4>
+      <p>
+        {{ post.body }}
+      </p>
+    </article>
+  {% endfor %}
+</section>
+{% endblock %}
